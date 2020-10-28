@@ -1,0 +1,42 @@
+#self-logo {
+  width: 60px;
+  height: 60px;
+}
+
+#education {
+  padding-top: 6rem;
+  padding-bottom: 0.5rem;
+}
+
+#content {
+  margin-bottom: 4rem;
+}
+
+#blog {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#blog {
+  padding-top: 2rem;
+}
+
+#about {
+  padding-top: 9rem;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 23px;
+}
+
+@media only screen and (max-width: 380px) {
+  .font-medium {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
