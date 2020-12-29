@@ -1,6 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
 #self-logo {
   width: 60px;
   height: 60px;
+}
+
+#hero {
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#typed {
+  color: #e83a59;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #education {
