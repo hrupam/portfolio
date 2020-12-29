@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
+nav {
+  justify-content: space-evenly;
+}
+nav a {
+  margin: 5px;
+}
 #self-logo {
   width: 60px;
   height: 60px;
@@ -47,8 +52,18 @@ html {
 }
 
 @media only screen and (max-width: 380px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    text-align: center;
+    margin: 3px;
+  }
   .font-medium {
     font-weight: 400;
     font-size: 14px;
+  }
+  #about h1 {
+    font-size: x-large;
   }
 }
