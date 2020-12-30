@@ -18,7 +18,7 @@
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/22b08852d3.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/extra_style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -64,8 +64,7 @@
                     of 3rd Year at
                     Brainware Group of Institutions-SDET under MAKAUT (formerly known as WBUT). <br>
                     <br>- Besides college curriculum, I'm also upgrading my industrial knowledge.
-                    <br>- I've keen knowledge and skills on Programing Languages: <strong>Core Java, C,
-                        Python</strong>.
+                    <br>- I've keen knowledge and skills on Programing Languages: <strong id="typed-lang"></strong>
                     <br>- A Data Science and Machine Learning enthusiast. Have knowledge to extract insights from a
                     large
                     scale data and have practical implementation skills on different Machine Learning Algorithms.
@@ -299,7 +298,7 @@
                 <div class="bg-white relative flex flex-wrap py-6">
                     <div class="lg:w-1/2 px-6">
                         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
-                        <p class="leading-relaxed">Nabapally Boys School Road, Barasat, Kolkata-126
+                        <p class="leading-relaxed">Barasat, Kolkata, West Bengal
                         </p>
                     </div>
                     <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -390,11 +389,17 @@
     <!-- Typed.js script -->
     <script src="js/typed.js"></script>
     <script>
-        var typed = new Typed('#typed', {
+        var typed1 = new Typed('#typed', {
             strings: ["Computer Science Engineer.", "Web Developer.", "Data Science and Machine Learning enthusiast."],
             typeSpeed: 40,
             backSpeed: 30,
             startDelay: 1600,
+            loop: true,
+        });
+        var typed2 = new Typed('#typed-lang', {
+            strings: ["C.", "Core Java.", "Python."],
+            typeSpeed: 30,
+            backSpeed: 30,
             loop: true,
         });
     </script>
