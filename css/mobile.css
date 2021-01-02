@@ -1,0 +1,38 @@
+nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav a {
+  text-align: center;
+  margin: 3px;
+}
+
+.font-medium {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#about h1 {
+  font-size: x-large;
+}
+
+#education h1 {
+  font-size: x-large;
+}
+
+#projects-section h1 {
+  font-size: x-large;
+}
+
+.card .body .title {
+  font-weight: bold;
+  font-size: large;
+}
+
+.card .body .description {
+  font-weight: 300;
+}
+/*# sourceMappingURL=mobile.css.map */

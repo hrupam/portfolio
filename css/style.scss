@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&family=Ubuntu&display=swap");
+
+// font-family: 'Audiowide', cursive;
+
+// font-family: 'Poppins', sans-serif;
+
+// font-family: 'Ubuntu', sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+#loader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: url("../assets/images/loader.gif") no-repeat center center;
+  background-color: white;
+}
+
+nav {
+  justify-content: space-evenly;
+  a {
+    margin: 5px;
+    transition: all 0.1s linear;
+    &:hover {
+      transform: scale(1.06);
+    }
+  }
+}
+.name {
+  font-family: "Audiowide", cursive;
+  font-weight: 600;
+  color: #207398;
+  span {
+    color: rgb(225, 29, 29);
+  }
+}
+#self-logo {
+  width: 60px;
+  height: 60px;
+}
+
+#hero {
+  border-radius: 5%;
+  overflow: hidden;
+  box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
+}
+
+#typed {
+  color: #207398;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#education {
+  padding-top: 6rem;
+  padding-bottom: 0.5rem;
+}
+
+#content {
+  margin-bottom: 4rem;
+}
+
+#blog {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#blog {
+  padding-top: 2rem;
+}
+
+#about {
+  padding-top: 9rem;
+  h1 span:first-child {
+    color: rgb(225, 29, 29);
+  }
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-size: 23px;
+}
+
+.card {
+  //   border: 2px solid black;
+  height: 520px;
+  margin: 20px 20px;
+  box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
+  border-radius: 10px;
+  overflow: hidden;
+  .image {
+    // border: 5px solid red;
+
+    overflow: hidden;
+    position: relative;
+    img {
+      transition: all 0.5s linear;
+    }
+    i {
+      color: whitesmoke;
+      z-index: 3;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -15px;
+      margin-top: -15px;
+      transition: all 0.5s linear;
+      transform: translate(500px);
+      font-size: 2em;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+      z-index: 1;
+      background-color: rgba(229, 62, 62, 0.46);
+      transform: translate(-130%);
+      transition: all 0.5s linear;
+    }
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+      i {
+        transform: translate(0);
+      }
+      &::after {
+        transform: translate(0);
+      }
+    }
+  }
+
+  .body {
+    // background-color: aquamarine;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    .title {
+      font-weight: bolder;
+      font-size: large;
+      margin: 5px;
+      padding: 9px;
+      //   border: 2px solid black;
+    }
+    .description {
+      //   border: 2px solid black;
+      padding: 20px;
+      margin: 7px;
+      font-weight: 500;
+    }
+  }
+}
+
+#footer-section {
+  #creator {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    padding-bottom: 15px;
+  }
+}

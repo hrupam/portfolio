@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&family=Ubuntu&display=swap");
 html {
   scroll-behavior: smooth;
 }
+
 #loader {
   position: fixed;
   top: 0px;
@@ -14,15 +15,32 @@ html {
 }
 
 nav {
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+
 nav a {
   margin: 5px;
+  -webkit-transition: all 0.1s linear;
   transition: all 0.1s linear;
 }
+
 nav a:hover {
-  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
+
+.name {
+  font-family: "Audiowide", cursive;
+  font-weight: 600;
+  color: #207398;
+}
+
+.name span {
+  color: #e11d1d;
+}
+
 #self-logo {
   width: 60px;
   height: 60px;
@@ -31,6 +49,8 @@ nav a:hover {
 #hero {
   border-radius: 5%;
   overflow: hidden;
+  -webkit-box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
+          box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
 }
 
 #typed {
@@ -52,10 +72,6 @@ nav a:hover {
   padding-bottom: 4rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 #blog {
   padding-top: 2rem;
 }
@@ -64,24 +80,101 @@ html {
   padding-top: 9rem;
 }
 
+#about h1 span:first-child {
+  color: #e11d1d;
+}
+
 .fab {
   font-family: "Font Awesome 5 Brands";
   font-size: 23px;
 }
 
-@media only screen and (max-width: 380px) {
-  nav {
-    flex-direction: column;
-  }
-  nav a {
-    text-align: center;
-    margin: 3px;
-  }
-  .font-medium {
-    font-weight: 400;
-    font-size: 14px;
-  }
-  #about h1 {
-    font-size: x-large;
-  }
+.card {
+  height: 520px;
+  margin: 20px 20px;
+  -webkit-box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
+          box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
+  border-radius: 10px;
+  overflow: hidden;
 }
+
+.card .image {
+  overflow: hidden;
+  position: relative;
+}
+
+.card .image img {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.card .image i {
+  color: whitesmoke;
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -webkit-transform: translate(500px);
+          transform: translate(500px);
+  font-size: 2em;
+}
+
+.card .image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(229, 62, 62, 0.46);
+  -webkit-transform: translate(-130%);
+          transform: translate(-130%);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.card .image:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.card .image:hover i {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+.card .image:hover::after {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+.card .body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card .body .title {
+  font-weight: bolder;
+  font-size: large;
+  margin: 5px;
+  padding: 9px;
+}
+
+.card .body .description {
+  padding: 20px;
+  margin: 7px;
+  font-weight: 500;
+}
+
+#footer-section #creator {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */
