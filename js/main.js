@@ -34,7 +34,8 @@ $(document).ready(() => {
     dots: true,
     arrows: false,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,

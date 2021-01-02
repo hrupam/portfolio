@@ -28,13 +28,13 @@ nav a {
 }
 
 #hero {
-  -webkit-box-shadow: 10px 10px 12px -2px rgba(32, 114, 152, 0.7);
-          box-shadow: 10px 10px 12px -2px rgba(32, 114, 152, 0.7);
+  -webkit-box-shadow: 4px 0px 6px 3px rgba(32, 114, 152, 0.68);
+          box-shadow: 4px 0px 6px 3px rgba(32, 114, 152, 0.68);
 }
 
 .card {
-  -webkit-box-shadow: 10px 10px 13px 0px rgba(229, 62, 62, 0.46);
-          box-shadow: 10px 10px 13px 0px rgba(229, 62, 62, 0.46);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(225, 29, 29, 0.5);
+          box-shadow: 0px 0px 10px 3px rgba(225, 29, 29, 0.5);
 }
 
 .card .body .title {
@@ -44,5 +44,12 @@ nav a {
 
 .card .body .description {
   font-weight: 300;
+  margin: 5px;
+  padding: 7px;
+}
+
+#footer-section #creator {
+  font-size: medium;
+  padding-bottom: 13px;
 }
 /*# sourceMappingURL=mobile.css.map */

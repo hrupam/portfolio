@@ -49,8 +49,8 @@ nav a:hover {
 #hero {
   border-radius: 5%;
   overflow: hidden;
-  -webkit-box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
-          box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
+  -webkit-box-shadow: 4px 0px 5px 6px rgba(32, 114, 152, 0.6);
+          box-shadow: 4px 0px 5px 6px rgba(32, 114, 152, 0.6);
 }
 
 #typed {
@@ -89,15 +89,11 @@ nav a:hover {
   font-size: 23px;
 }
 
-.projects {
-  padding: 10px 10px;
-}
-
 .card {
   height: 520px;
   margin: 20px 22px;
-  -webkit-box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
-          box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(225, 29, 29, 0.5);
+          box-shadow: 0px 0px 8px 5px rgba(225, 29, 29, 0.5);
   border-radius: 10px;
   overflow: hidden;
 }

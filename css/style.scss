@@ -6,6 +6,9 @@
 
 // font-family: 'Ubuntu', sans-serif;
 
+//blue  #207398
+//red #e11d1d
+
 html {
   scroll-behavior: smooth;
 }
@@ -46,8 +49,9 @@ nav {
 #hero {
   border-radius: 5%;
   overflow: hidden;
-  box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
+  // box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
   // box-shadow: 14px 14px 12px -2px rgba(32, 114, 152, 0.7);
+  box-shadow: 4px 0px 5px 6px rgba(32, 114, 152, 0.6);
 }
 
 #typed {
@@ -84,16 +88,12 @@ nav {
   font-family: "Font Awesome 5 Brands";
   font-size: 23px;
 }
-.projects {
-  // border: 2px solid black;
-  padding: 10px 10px;
-}
 
 .card {
-  //   border: 2px solid black;
+  // border: 2px solid black;
   height: 520px;
   margin: 20px 22px;
-  box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
+  box-shadow: 0px 0px 8px 5px rgba(225, 29, 29, 0.5);
   border-radius: 10px;
   overflow: hidden;
   .image {
@@ -103,6 +103,7 @@ nav {
     position: relative;
     img {
       transition: all 0.5s linear;
+      // height: 230px;
     }
     i {
       color: whitesmoke;
@@ -150,10 +151,10 @@ nav {
       font-size: large;
       margin: 5px;
       padding: 9px;
-      //   border: 2px solid black;
+      // border: 2px solid black;
     }
     .description {
-      //   border: 2px solid black;
+      // border: 2px solid black;
       padding: 20px;
       margin: 7px;
       font-weight: 500;
