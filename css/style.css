@@ -89,9 +89,13 @@ nav a:hover {
   font-size: 23px;
 }
 
+.projects {
+  padding: 10px 10px;
+}
+
 .card {
   height: 520px;
-  margin: 20px 20px;
+  margin: 20px 22px;
   -webkit-box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
           box-shadow: 12px 12px 13px 0px rgba(229, 62, 62, 0.46);
   border-radius: 10px;
