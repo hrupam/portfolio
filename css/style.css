@@ -32,7 +32,7 @@ header {
   transition: all 0.5s linear;
 }
 
-header .name {
+.name {
   font-family: "Audiowide", cursive;
   font-weight: 600;
   display: -webkit-box;
@@ -40,11 +40,11 @@ header .name {
   display: flex;
 }
 
-header .name .fname {
+.name .fname {
   color: #207398;
 }
 
-header .name .lname {
+.name .lname {
   color: #e11d1d;
 }
 

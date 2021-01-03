@@ -32,16 +32,16 @@ header {
   top: 0;
   left: 0;
   transition: all 0.5s linear;
-  .name {
-    font-family: "Audiowide", cursive;
-    font-weight: 600;
-    display: flex;
-    .fname {
-      color: #207398;
-    }
-    .lname {
-      color: rgb(225, 29, 29);
-    }
+}
+.name {
+  font-family: "Audiowide", cursive;
+  font-weight: 600;
+  display: flex;
+  .fname {
+    color: #207398;
+  }
+  .lname {
+    color: rgb(225, 29, 29);
   }
 }
 .header-scroll {
