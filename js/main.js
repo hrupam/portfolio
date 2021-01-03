@@ -3,6 +3,11 @@ $(window).load("on", () => {
 });
 
 $(document).ready(() => {
+  $(window).scroll(function () {
+    if (this.scrollY > 20) $("header").addClass("header-scroll");
+    else $("header").removeClass("header-scroll");
+  });
+
   var typed1 = new Typed("#typed", {
     strings: [
       "Computer Science Engineer.",

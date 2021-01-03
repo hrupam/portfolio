@@ -1,18 +1,26 @@
-nav {
+header {
+  height: 100px;
+  overflow: hidden;
+}
+
+header nav {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-nav a {
+header nav a {
   text-align: center;
   margin: 3px;
 }
 
-.font-medium {
-  font-weight: 400;
-  font-size: 14px;
+#blog h2 {
+  font-size: large;
+}
+
+#blog p {
+  font-size: large;
 }
 
 #about h1 {

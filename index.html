@@ -26,14 +26,18 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 380px)" href="./css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 765px)" href="./css/tab.css">
 </head>
 
 <body>
     <!-- LOADER -->
-    <div id="loader"></div>
+    <div id="loader">
+        <img src="./assets/images/loader.gif" alt="">
+    </div>
 
     <!-- HEADER -->
     <header class="text-gray-700 body-font">
+
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
                 <a href="#about-section" class="hover:text-gray-900">ABOUT</a>
@@ -41,11 +45,13 @@
                 <a href="#projects-section" class="hover:text-gray-900">PROJECTS</a>
                 <a href="#contact-section" class="hover:text-gray-900">CONTACT ME</a>
             </nav>
-            <a
+            <a href="/"
                 class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
                 <img id="self-logo" src="assets/images/circle-cropped(1).png" alt="logo">
-                <span class="ml-3 text-xl name">&#60;rupam.<span>hari_/&#62;</span>
-                </span>
+                <div class="name ml-3 text-xl">
+                    <span class="fname">&#60;rupam.</span>
+                    <span class="lname">hari_/&#62;</span>
+                </div>
             </a>
 
             <div class="lg:w-2/5 inline-flex lg:justify-end lg:ml-0">
@@ -131,7 +137,8 @@
                 <div class="py-8 flex flex-wrap md:flex-no-wrap">
                     <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                         <span class="tracking-widest font-medium title-font text-gray-900">Bachelor of
-                            Technology-Computer Science</span>
+                            Technology-</span>
+                        <span class="tracking-widest font-medium title-font text-gray-900">Computer Science</span>
                         <span class="mt-1 text-gray-500 text-sm">2018-2022</span>
                     </div>
                     <div class="md:flex-grow">
@@ -159,7 +166,8 @@
                 <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
                     <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                         <span class="tracking-widest font-medium title-font text-gray-900">ISC (Higher
-                            Secondary)-Science</span>
+                            Secondary)-</span>
+                        <span class="tracking-widest font-medium title-font text-gray-900">Science</span>
                         <span class="mt-1 text-gray-500 text-sm">2016-2018</span>
                     </div>
                     <div class="md:flex-grow">
@@ -365,7 +373,10 @@
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg> -->
                 <img id="self-logo" src="assets/images/circle-cropped(1).png" alt="logo">
-                <span class="ml-3 text-xl name">&#60;rupam.<span>hari_/&#62;</span>
+                <div class="name ml-3 text-xl">
+                    <span class="fname">&#60;rupam.</span>
+                    <span class="lname">hari_/&#62;</span>
+                </div>
             </a>
             <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
                 2020-2021 hrupam —
