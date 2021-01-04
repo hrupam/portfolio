@@ -127,12 +127,10 @@ nav {
   overflow: hidden;
   .image {
     // border: 5px solid red;
-
     overflow: hidden;
     position: relative;
     img {
       transition: all 0.5s linear;
-      // height: 230px;
     }
     i {
       color: whitesmoke;
@@ -172,7 +170,7 @@ nav {
   }
 
   .body {
-    // background-color: aquamarine;
+    // border: 2px solid black;
     text-align: center;
     font-family: "Poppins", sans-serif;
     .title {
