@@ -217,4 +217,15 @@ nav a:hover {
   font-size: large;
   padding-bottom: 15px;
 }
+
+#footer-section .social-buttons {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#footer-section .social-buttons:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

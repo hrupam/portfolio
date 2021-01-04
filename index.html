@@ -11,6 +11,9 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- AOS css -->
+    <link href="./aos-master/aos-master/dist/aos.css" rel="stylesheet">
+
 
 
     <!-- Slick Carousel CSS -->
@@ -45,7 +48,7 @@
                 <a href="#projects-section" class="hover:text-gray-900">PROJECTS</a>
                 <a href="#contact-section" class="hover:text-gray-900">CONTACT ME</a>
             </nav>
-            <a href="/"
+            <a href=""
                 class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
                 <img id="self-logo" src="assets/images/circle-cropped(1).png" alt="logo">
                 <div class="name ml-3 text-xl">
@@ -133,8 +136,9 @@
         <div id="blog" class="container px-5 py-24 mx-auto">
             <div class="-my-8">
 
-                <!-- EACH BLOG -->
-                <div class="py-8 flex flex-wrap md:flex-no-wrap">
+                <!-- BLOG -->
+                <div class="py-8 flex flex-wrap md:flex-no-wrap" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-delay="400">
                     <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                         <span class="tracking-widest font-medium title-font text-gray-900">Bachelor of
                             Technology-</span>
@@ -160,10 +164,13 @@
                         </a> -->
                     </div>
                 </div>
-                <!-- EACH BLOG END -->
+                <!-- BLOG END -->
+
                 <!-- ADD "border-t-2 border-gray-200" class TO ADD TOP BORDER OF EACH BLOG -->
 
-                <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+                <!-- BLOG -->
+                <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap" data-aos="fade-right"
+                    data-aos-duration="1000" data-aos-delay="500">
                     <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                         <span class="tracking-widest font-medium title-font text-gray-900">ISC (Higher
                             Secondary)-</span>
@@ -183,7 +190,11 @@
                         </a> -->
                     </div>
                 </div>
-                <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap">
+                <!-- BLOG END -->
+
+                <!-- BLOG -->
+                <div class="py-8 flex border-t-2 border-gray-200 flex-wrap md:flex-no-wrap" data-aos="fade-left"
+                    data-aos-duration="1000" data-aos-delay="600">
                     <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                         <span class="tracking-widest font-medium title-font text-gray-900">ICSE (Secondary)</span>
                         <span class="mt-1 text-gray-500 text-sm">2005-2018</span>
@@ -201,6 +212,7 @@
                         </a> -->
                     </div>
                 </div>
+                <!-- BLOG END -->
             </div>
         </div>
     </section>
@@ -368,10 +380,7 @@
     <!-- FOOTER -->
     <footer id="footer-section" class="text-gray-700 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg> -->
+            <a href="" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                 <img id="self-logo" src="assets/images/circle-cropped(1).png" alt="logo">
                 <div class="name ml-3 text-xl">
                     <span class="fname">&#60;rupam.</span>
@@ -383,13 +392,14 @@
                 <a class="text-gray-600 ml-1" rel="noopener noreferrer">All Rights Reserved</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                <a href="https://www.facebook.com/hrupam08/" target="_blank" class="text-gray-500">
+
+                <a href="https://www.facebook.com/hrupam08/" target="_blank" class="text-gray-500 social-buttons">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         class="w-5 h-5" viewBox="0 0 24 24">
                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                     </svg>
                 </a>
-                <a href="https://twitter.com/Rupam182000" target="_blank" class="ml-3 text-gray-500">
+                <a href="https://twitter.com/Rupam182000" target="_blank" class="ml-3 text-gray-500 social-buttons">
                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         class="w-5 h-5" viewBox="0 0 24 24">
                         <path
@@ -397,14 +407,16 @@
                         </path>
                     </svg>
                 </a>
-                <a href="https://www.instagram.com/rupam.hari_/" target="_blank" class="ml-3 text-gray-500">
+                <a href="https://www.instagram.com/rupam.hari_/" target="_blank"
+                    class="ml-3 text-gray-500 social-buttons">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                         <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/in/rupam-hari-aa8999187/" target="_blank" class="ml-3 text-gray-500">
+                <a href="https://www.linkedin.com/in/rupam-hari-aa8999187/" target="_blank"
+                    class="ml-3 text-gray-500 social-buttons">
                     <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
                         <path stroke="none"
@@ -430,6 +442,10 @@
     <!-- Typed.js script -->
     <script src="js/typed.js"></script>
 
+    <!-- AOS JS -->
+    <script src="./aos-master/aos-master/dist/aos.js"></script>
+
+    <!-- Custom JS -->
     <script src="js/main.js"></script>
 
 

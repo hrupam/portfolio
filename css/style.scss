@@ -118,9 +118,6 @@ nav {
   font-family: "Font Awesome 5 Brands";
   font-size: 23px;
 }
-.projects {
-  // border: 2px solid black;
-}
 .card {
   // border: 2px solid black;
   height: 520px;
@@ -200,5 +197,12 @@ nav {
     font-family: "Poppins", sans-serif;
     font-size: large;
     padding-bottom: 15px;
+  }
+  .social-buttons {
+    transition: all 0.2s linear;
+    &:hover {
+      transform: scale(1.5);
+      color: black;
+    }
   }
 }

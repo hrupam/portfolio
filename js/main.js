@@ -3,6 +3,8 @@ $(window).load("on", () => {
 });
 
 $(document).ready(() => {
+  AOS.init();
+
   $(window).scroll(function () {
     if (this.scrollY > 20) $("header").addClass("header-scroll");
     else $("header").removeClass("header-scroll");
@@ -57,7 +59,7 @@ $(document).ready(() => {
         },
       },
       {
-        breakpoint: 500,
+        breakpoint: 650,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
