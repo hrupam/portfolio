@@ -46,7 +46,8 @@ header {
 }
 .header-scroll {
   // background-color: #95c2e3;
-  background-color: #f9db89;
+  // background-color: #f9db89;
+  background-color: #e5d68a;
   nav a {
     color: #207398;
   }
@@ -81,7 +82,12 @@ nav {
   overflow: hidden;
   // box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
   // box-shadow: 14px 14px 12px -2px rgba(32, 114, 152, 0.7);
-  box-shadow: 4px 0px 5px 6px rgba(32, 114, 152, 0.6);
+  box-shadow: 2px 0px 4px 3px rgba(32, 114, 152, 0.6);
+  filter: grayscale(70%);
+  transition: all 0.2s linear;
+  &:hover {
+    filter: grayscale(0);
+  }
 }
 
 #typed {

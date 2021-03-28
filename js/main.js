@@ -23,7 +23,7 @@ $(document).ready(() => {
   });
 
   var typed2 = new Typed("#typed-lang", {
-    strings: ["C", "Core Java", "JavaScript", "Python"],
+    strings: ["C", "Java", "JavaScript", "Python"],
     typeSpeed: 30,
     backSpeed: 30,
     loop: true,
@@ -31,7 +31,7 @@ $(document).ready(() => {
 
   $("#about h1")
     .addClass("animate__animated animate__zoomInLeft")
-    .css("--animate-duration", "1500ms");
+    .css({ "--animate-duration": "1500ms" });
 
   $("#about p").addClass(
     "animate__animated animate__fadeInRight animate__slow"
