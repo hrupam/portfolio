@@ -23,7 +23,7 @@ $(document).ready(() => {
   });
 
   var typed2 = new Typed("#typed-lang", {
-    strings: ["Java", "JavaScript", "C", "Python", "SQL"],
+    strings: ["Java", "Python", "C", "SQL"],
     typeSpeed: 30,
     backSpeed: 30,
     loop: true,
