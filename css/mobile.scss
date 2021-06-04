@@ -2,40 +2,49 @@ header {
   // background-color: #f9db89;
   height: 100px;
   overflow: hidden;
+
   nav {
     flex-direction: column;
+
     a {
       text-align: center;
       margin: 3px;
     }
   }
 }
+
 #blog {
   h2 {
     font-size: large;
   }
+
   p {
     font-size: large;
   }
 }
+
 #about h1 {
   font-size: x-large;
 }
+
 #education h1 {
   font-size: x-large;
 }
+
 #projects-section h1 {
   font-size: x-large;
 }
 
 .card {
-  box-shadow: 0px 0px 10px 3px rgba(225, 29, 29, 0.5);
-  margin: 13px 13px;
+  box-shadow: 0 0 10px 3px rgba(225, 29, 29, 0.5);
+  margin: 13px;
+
   .body {
     .title {
       font-weight: bold;
       font-size: large;
     }
+
     .description {
       font-weight: 300;
       margin: 5px;
@@ -43,6 +52,7 @@ header {
     }
   }
 }
+
 #footer-section {
   #creator {
     font-size: medium;

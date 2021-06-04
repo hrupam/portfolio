@@ -1,29 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&family=Ubuntu&display=swap");
-
-// font-family: 'Audiowide', cursive;
-
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins&family=Ubuntu&display=swap"); // font-family: 'Audiowide', cursive;
 // font-family: 'Poppins', sans-serif;
-
 // font-family: 'Ubuntu', sans-serif;
-
 //blue  #207398
 //red #e11d1d
 
 html {
   scroll-behavior: smooth;
 }
+
 #loader {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 10;
   background-color: white;
 }
+
 header {
   // border: 2px solid black;
   position: sticky;
@@ -33,28 +30,35 @@ header {
   left: 0;
   transition: all 0.5s linear;
 }
+
 .name {
   font-family: "Audiowide", cursive;
   font-weight: 600;
   display: flex;
+
   .fname {
     color: #207398;
   }
+
   .lname {
     color: rgb(225, 29, 29);
   }
 }
+
 .header-scroll {
   // background-color: #95c2e3;
   // background-color: #f9db89;
   background-color: #e5d68a;
+
   nav a {
     color: #207398;
   }
+
   .name {
     .fname {
       color: #db0b5f;
     }
+
     .lname {
       color: #6f00ed;
     }
@@ -63,9 +67,11 @@ header {
 
 nav {
   justify-content: space-evenly;
+
   a {
     margin: 5px;
     transition: all 0.1s linear;
+
     &:hover {
       transform: scale(1.06);
     }
@@ -82,9 +88,10 @@ nav {
   overflow: hidden;
   // box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
   // box-shadow: 14px 14px 12px -2px rgba(32, 114, 152, 0.7);
-  box-shadow: 2px 0px 4px 3px rgba(32, 114, 152, 0.6);
+  box-shadow: 2px 0 4px 3px rgba(32, 114, 152, 0.6);
   filter: grayscale(70%);
   transition: all 0.2s linear;
+
   &:hover {
     filter: grayscale(0);
   }
@@ -115,6 +122,7 @@ nav {
 
 #about {
   padding-top: 9rem;
+
   h1 span:first-child {
     color: rgb(225, 29, 29);
   }
@@ -124,20 +132,24 @@ nav {
   font-family: "Font Awesome 5 Brands";
   font-size: 23px;
 }
+
 .card {
   // border: 2px solid black;
   height: 520px;
   margin: 20px 22px;
-  box-shadow: 0px 0px 8px 5px rgba(225, 29, 29, 0.5);
+  box-shadow: 0 0 8px 5px rgba(225, 29, 29, 0.5);
   border-radius: 10px;
   overflow: hidden;
+
   .image {
     // border: 5px solid red;
     overflow: hidden;
     position: relative;
+
     img {
       transition: all 0.5s linear;
     }
+
     i {
       color: whitesmoke;
       z-index: 3;
@@ -150,6 +162,7 @@ nav {
       transform: translate(500px);
       font-size: 2em;
     }
+
     &::after {
       content: "";
       width: 100%;
@@ -162,13 +175,16 @@ nav {
       transform: translate(-130%);
       transition: all 0.5s linear;
     }
+
     &:hover {
       img {
         transform: scale(1.2);
       }
+
       i {
         transform: translate(0);
       }
+
       &::after {
         transform: translate(0);
       }
@@ -179,6 +195,7 @@ nav {
     // border: 2px solid black;
     text-align: center;
     font-family: "Poppins", sans-serif;
+
     .title {
       font-weight: bolder;
       font-size: large;
@@ -186,6 +203,7 @@ nav {
       padding: 9px;
       // border: 2px solid black;
     }
+
     .description {
       // border: 2px solid black;
       padding: 20px;
@@ -202,8 +220,10 @@ nav {
     font-size: large;
     padding-bottom: 15px;
   }
+
   .social-buttons {
     transition: all 0.2s linear;
+
     &:hover {
       transform: scale(1.5);
       color: black;

@@ -5,7 +5,7 @@ $(window).load("on", () => {
 $(document).ready(() => {
   AOS.init();
 
-  $(window).scroll(function () {
+  $(window).scroll(function() {
     if (this.scrollY > 20) $("header").addClass("header-scroll");
     else $("header").removeClass("header-scroll");
   });
@@ -31,7 +31,9 @@ $(document).ready(() => {
 
   $("#about h1")
     .addClass("animate__animated animate__zoomInLeft")
-    .css({ "--animate-duration": "1500ms" });
+    .css({
+      "--animate-duration": "1500ms"
+    });
 
   $("#about p").addClass(
     "animate__animated animate__fadeInRight animate__slow"
@@ -43,8 +45,7 @@ $(document).ready(() => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,

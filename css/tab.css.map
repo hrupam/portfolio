@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EAEL,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,MAAM;CACjB",
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,MAAM;CACjB",
     "sources": [
         "tab.scss"
     ],
