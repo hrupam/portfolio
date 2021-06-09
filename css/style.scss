@@ -86,15 +86,8 @@ nav {
 #hero {
   border-radius: 5%;
   overflow: hidden;
-  // box-shadow: 20px 20px 16px 0px rgba(32, 114, 152, 0.73);
-  // box-shadow: 14px 14px 12px -2px rgba(32, 114, 152, 0.7);
   box-shadow: 2px 0 4px 3px rgba(32, 114, 152, 0.6);
-  filter: grayscale(70%);
   transition: all 0.2s linear;
-
-  &:hover {
-    filter: grayscale(0);
-  }
 }
 
 #typed {

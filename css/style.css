@@ -91,15 +91,8 @@ nav a:hover {
   overflow: hidden;
   -webkit-box-shadow: 2px 0 4px 3px rgba(32, 114, 152, 0.6);
           box-shadow: 2px 0 4px 3px rgba(32, 114, 152, 0.6);
-  -webkit-filter: grayscale(70%);
-          filter: grayscale(70%);
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-}
-
-#hero:hover {
-  -webkit-filter: grayscale(0);
-          filter: grayscale(0);
 }
 
 #typed {
